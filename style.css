@@ -89,10 +89,12 @@ section * {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  #skills::before {
+}
+
+#skills::before {
   background-color: rgba(0, 0, 0, 0.3);
 }
-}
+
 
 #resume {
   background-image: url("bg3.png");
