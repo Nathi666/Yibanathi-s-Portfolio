@@ -8,7 +8,7 @@ Here i will document my virtual cv which showcases Home ,About Me, My skills,Pro
 - GitHub Pages for hosting
 
 ## My Live Website
-[View My Portfolio Here](https://nathi666.github.io/yibanathi-portfolio/)
+[View My Portfolio Here](https://nathi666.github.io/Yibanathi-s-Portfolio/)
 
 ## Repository Contents
 - index.html -the main structural content
