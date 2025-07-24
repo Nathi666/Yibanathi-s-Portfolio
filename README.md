@@ -1,7 +1,7 @@
-# Virtual CV Portfolio website
+## Virtual CV Portfolio website
 Here i will document my virtual cv which showcases Home ,About Me, My skills,Projects i've worked on , contacts and my resume/ cv.
 
-# The Technologies i Used
+## The Technologies i Used
 - HTML
 - CSS
 - JavaScript
@@ -10,7 +10,7 @@ Here i will document my virtual cv which showcases Home ,About Me, My skills,Pro
 ## My Live Website
 [View My Portfolio Here](https://nathi666.github.io/yibanathi-portfolio/)
 
-##Repository Contents
+## Repository Contents
 - index.html -the main structural content
 - style.css — colors , images and more
 - script.js — JavaScript 
