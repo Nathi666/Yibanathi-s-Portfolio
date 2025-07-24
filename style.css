@@ -5,16 +5,16 @@ b/* Reset default margin and padding */
   box-sizing: border-box;
 }
 
-/* Body styles */
+/*  styles */
 body {
   font-family: Arial, sans-serif;
   color: white;
   line-height: 1.6;
   padding: 20px;
-  background-color: #121212; /* fallback background */
+  background-color: #121212; 
 }
 
-/* Header with background and overlay */
+/* Header with background image  */
 header {
   position: relative;
   background-image: url("bg4.png"); /* background image for header */
@@ -41,7 +41,7 @@ header h1, header p {
   z-index: 1;
 }
 
-/* General section styles with overlay */
+/* styles */
 section {
   position: relative;
   padding: 2rem;
@@ -52,7 +52,7 @@ section {
   overflow: hidden;
 }
 
-/* Dark overlay to improve text readability */
+
 section::before {
   content: "";
   position: absolute;
@@ -61,17 +61,17 @@ section::before {
   z-index: 0;
 }
 
-/* Make sure content appears above overlay */
+/* Make sure that the content appears above overlay */
 section * {
   position: relative;
   z-index: 1;
 }
 
-/* Different backgrounds for each section */
+/* Trying Different backgrounds for each section */
 #about {
   background-image: url("bg.png");
-  background-size: cover;      /* fill entire section, may crop edges */
-  background-position: center; /* center the image */
+  background-size: cover;     
+  background-position: center;
   background-repeat: no-repeat;
   min-height: 300px;
 }
@@ -85,7 +85,7 @@ section * {
 }
 
 #skills {
-  background-image: url("bg2.png");
+  background-image: url("bg4.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ section * {
   background-repeat: no-repeat;
 }
 
-/* Footer with background and overlay */
+/* Footer with background image*/
 footer {
   position: relative;
   background-image: url("bg5.png");
@@ -132,7 +132,7 @@ footer p {
   z-index: 1;
 }
 
-/* Link styles */
+/* styles */
 a {
   color: #88c0d0;
   text-decoration: none;
@@ -142,7 +142,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Headings styles */
+
 h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
@@ -160,7 +160,7 @@ ul {
   margin-bottom: 1rem;
 }
 
-/* Responsive design for smaller screens */
+
 @media (max-width: 600px) {
   body {
     padding: 10px;
