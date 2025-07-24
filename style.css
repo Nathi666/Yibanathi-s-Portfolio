@@ -89,6 +89,9 @@ section * {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  #skills::before {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 }
 
 #resume {
